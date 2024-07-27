@@ -57,5 +57,9 @@ enum class SocialIcon(
     MailLightBlue(
         icon = Res.Icon.MAIL_LIGHT_BLUE,
         link = Res.String.MY_EMAIL
+    ),
+    Mail(
+        icon = Res.Icon.EMAIL_LIGHT,
+        link = "https://www.facebook.com/swishersoftwaresolutions"
     )
 }
