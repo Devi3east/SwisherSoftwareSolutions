@@ -31,8 +31,8 @@ fun RightSide(
         Image(
             modifier = Modifier
                 .fillMaxSize()
-                .objectFit(ObjectFit.Cover),
-            src = Res.Image.CODE_TWO
+                .objectFit(ObjectFit.Contain),
+            src = Res.Image.CODING_GRAY
         )
     }
 }

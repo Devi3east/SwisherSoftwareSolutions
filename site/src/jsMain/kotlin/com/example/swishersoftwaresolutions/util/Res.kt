@@ -38,6 +38,7 @@ object Res {
         const val PROJECT_DIRECTORY = "project_directory.png"
         const val CODE_ONE = "code_one.jpg"
         const val CODE_TWO = "code_two.jpg"
+        const val CODING_GRAY = "coding_gray.jpg"
     }
 
     object String {
