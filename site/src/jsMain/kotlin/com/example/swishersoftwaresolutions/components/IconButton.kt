@@ -52,7 +52,7 @@ enum class SocialIcon(
 ) {
     FacebookLightBlue(
         icon = Res.Icon.FACEBOOK_LIGHT_BLUE,
-        link = "https://www.facebook.com/swishersoftwaresolutions"
+        link = "https://www.facebook.com/fatbottomgrille"
     ),
     MailLightBlue(
         icon = Res.Icon.MAIL_LIGHT_BLUE,
