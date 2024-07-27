@@ -29,7 +29,7 @@ fun RightSide(
             modifier = Modifier
                 .fillMaxSize()
                 .objectFit(ObjectFit.Contain),
-            src = Res.Image.CODING_TWO
+            src = Res.Image.PROJECT_DIRECTORY
         )
     }
 }
