@@ -91,7 +91,7 @@ fun LeftSide(
             alwaysOpen = false,
             items = listOf(
                 AccordionItem(
-                    title = "Mobile Application & Software Development",
+                    title = "Mobile Application & Software Development Android",
                     content = {
                         SpanText(
                             text = "Building robust and scalable applications tailored to your specific needs."
