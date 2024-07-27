@@ -28,16 +28,11 @@ object Res {
         const val MAIL_LIGHT_BLUE = "mail_light_blue.svg"
         const val GITHUB = "github.svg"
         const val GITHUB_LIGHT = "github_light.svg"
-        const val INSTAGRAM = "instagram.svg"
-        const val INSTAGRAM_LIGHT = "instagram_light.svg"
         const val GITLAB = "gitlab.svg"
         const val GITLAB_LIGHT = "gitlab_light.svg"
-        const val SUN = "sun.svg"
-        const val MOON = "moon.svg"
     }
 
     object Image {
-        const val HOUSE_PICTURE_TWO = "house_picture_two.jpeg"
         const val CODING_ONE = "coding_one.jpg"
         const val CODING_TWO = "coding_two.jpg"
     }
