@@ -3,7 +3,10 @@ package com.example.swishersoftwaresolutions.components
 import androidx.compose.runtime.Composable
 import com.example.swishersoftwaresolutions.util.Res
 import com.varabyte.kobweb.compose.css.ObjectFit
+import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Box
+import com.varabyte.kobweb.compose.foundation.layout.Column
+import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.compose.ui.thenIf
@@ -25,11 +28,24 @@ fun RightSide(
                     .height((Res.Dimens.MAX_CARD_HEIGHT - 24).px)
             )
     ) {
-        Image(
+        Column(
             modifier = Modifier
-                .fillMaxSize()
-                .objectFit(ObjectFit.Contain),
-            src = Res.Image.PROJECT_DIRECTORY
-        )
+                .fillMaxSize(),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = if (breakpoint <= Breakpoint.SM) Alignment.CenterHorizontally else Alignment.Start
+        ) {
+            Image(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .objectFit(ObjectFit.Contain),
+                src = Res.Image.CODE_ONE
+            )
+            Image(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .objectFit(ObjectFit.Contain),
+                src = Res.Image.CODE_TWO
+            )
+        }
     }
 }
