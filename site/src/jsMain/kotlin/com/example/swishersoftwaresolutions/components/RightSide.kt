@@ -28,24 +28,11 @@ fun RightSide(
                     .height((Res.Dimens.MAX_CARD_HEIGHT - 24).px)
             )
     ) {
-        Column(
+        Image(
             modifier = Modifier
-                .fillMaxSize(),
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = if (breakpoint <= Breakpoint.SM) Alignment.CenterHorizontally else Alignment.Start
-        ) {
-            Image(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .objectFit(ObjectFit.Contain),
-                src = Res.Image.CODE_ONE
-            )
-            Image(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .objectFit(ObjectFit.Contain),
-                src = Res.Image.CODE_TWO
-            )
-        }
+                .fillMaxSize()
+                .objectFit(ObjectFit.Contain),
+            src = Res.Image.CODE_TWO
+        )
     }
 }
