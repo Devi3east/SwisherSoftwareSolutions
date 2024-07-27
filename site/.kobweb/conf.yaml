@@ -1,6 +1,5 @@
 site:
   title: "Swisher Software Solutions"
-  routePrefix: "SwisherSoftwareSolutions"
 
 server:
   files:
@@ -10,6 +9,6 @@ server:
       api: "build/libs/swishersoftwaresolutions.jar"
     prod:
       script: "build/dist/js/productionExecutable/swishersoftwaresolutions.js"
-      siteRoot: "../docs"
+      siteRoot: ".kobweb/site"
 
   port: 8080
