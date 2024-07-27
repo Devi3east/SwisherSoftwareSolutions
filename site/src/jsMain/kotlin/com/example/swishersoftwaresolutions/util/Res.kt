@@ -42,7 +42,7 @@ object Res {
         const val PROFESSION = "Software Development & Multiplatform Web Design"
         const val ABOUT_ME = "Welcome to Swisher Software Solutions, where innovation meets elegance! I’m Swisher, the founder and lead developer here. With a passion for both software development and web design, I’m dedicated to crafting custom solutions that elevate your digital presence. My journey began with a fascination for technology and design, which has evolved into a full-fledged career helping businesses and individuals bring their visions to life. At Swisher Software Solutions, I specialize in:"
         const val MY_APPROACH = "I believe in a collaborative approach, working closely with you to understand your goals and challenges. From the initial concept to the final product, my focus is on delivering high-quality results that align with your vision. Every project is a new opportunity to innovate and push boundaries, ensuring that your digital solutions are as unique as your brand, so consider Swisher Software Solutions for:"
-        const val ABOUT_ME_END = "Thank you for considering Swisher Software Solutions. I’m excited to explore how we can work together to create something exceptional. Feel free to reach out to discuss your next project or to learn more about my services."
+        const val ABOUT_ME_END = "Thank you for considering Swisher Software Solutions. I’m excited to explore how we can work together to create something exceptional. Feel free to reach out, using either icon below, to discuss your next project or to learn more about my services."
         const val BUTTON_TEXT = "Get In Touch"
         const val ROBOTO_CONDENSED = "RobotoCondensedBold"
         const val ROBOTO_REGULAR = "RobotoRegular"
